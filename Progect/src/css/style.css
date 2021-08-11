@@ -1,0 +1,340 @@
+body{
+    font-family: Arial, sans-serif;
+}
+nav {
+    width: 100%;
+    height: 60px;
+    background: #344051;
+}
+.logo{
+    color: #fff;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+}
+.menu{
+    float: left;
+    padding-left: 432px;
+    
+}
+.menu li{
+    float: left;
+    line-height: 60px;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.main{
+    width: 100%;
+    height: calc(100% - 60px);
+    background:url(../img/boy.png) 90% 100%/auto 85% no-repeat,  url(../img/fon1.png) center/cover no-repeat;
+}
+.title__container{
+    float: left;
+    margin: 432px 0px 0px 404px;
+    color: #2c384a;
+    text-align: center;
+}
+.title__container h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.title__container h4{
+    margin-top: 40px;
+    font-size: 22px;
+    color: #79818d;
+}
+.title__container input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 50px 14px 0px 14px;
+}
+.about{
+    margin: 100px 0px 0px 0px;
+    color: #384354;
+    text-align: center;
+    color: #263244;
+    height: 320px;
+    font-size: 30px;
+    background: url(../img/boy.mini.png) 50% 119px no-repeat  ,url(../img/line.png) 50% 47px no-repeat  
+}
+.lorem1{
+    font-size: 16px;
+    padding-left: 600px;
+    margin-top: 15px;
+    color: 3f495a;
+    
+}   
+.lorem2{
+    font-size: 16px;
+    padding-left: 600px;
+    margin-top: 32px;
+    color: 3f495a;
+} 
+.lorem2 input{
+    height: 34px;
+    background: none;
+    border-radius: 7px;
+    color: 6f707e;
+    font-size: 16px;
+    border: 2px solid #6d7682;
+    margin: 40px 0px 0px 290px
+}
+.i_can{
+    width: 100%;
+    height: 523px;
+    
+    margin-top: 100px;
+    background: url(../img/icon4.png) 1376px 276px  no-repeat, url(../img/icon3.png) 1086px 276px  no-repeat,
+                url(../img/icon2.png) 789px 276px  no-repeat, url(../img/icon1.png) 496px 276px  no-repeat,
+                url(../img/fon2.png) 100% no-repeat; 
+}
+.i_can h3{
+    padding-top: 106px;
+    text-align: center;        
+    font-size: 30px;
+    color: #384354;
+}
+.can{
+     margin-top: 222px;
+     padding-left: 476px;
+}
+.can li{
+    float: left;
+    margin-right: 200px;
+    font-size: 16px;
+    color: #cf7600
+}
+.about_i_can{
+    padding-left: 418px;
+    float: left;
+}
+.about_i_can li{
+    float: left;
+    font-size: 15px;
+    margin-right: 82px;
+    margin-top: 20px;
+    text-align: center;
+}
+.cases{
+    margin-top: 110px;
+    text-align: center;
+    font-size: 30px;
+    color: #384354;
+    height: 60px;
+    width: 100%;
+    background: url(../img/line2.png) 50% 53px no-repeat;
+}
+.lorem3{
+    margin-top: 38px;
+    font-size: 16px;
+    text-align: center;
+    color: #384354;
+}
+.foto{
+    width: 100%;
+    margin-top: 40px;
+    height: 592px;
+    background: url(../img/opencloud.png) no-repeat;
+}
+.c1{
+    margin: 36px 0px 0px 388px;
+    line-height:  17px;
+    float: left;
+    font-size: 16px;
+}
+.c1 b{
+    font-size: 25px;
+}
+.c2{
+    line-height:  15px;
+    margin: 36px 363px 0px 673px;
+    font-size: 20px;
+        
+}
+.c2 b{
+    font-size: 25px;
+}
+.input{
+    height: 44px;
+    width: 201px;
+    margin: 25px 0px 0px 388px;
+    font-size: 20px;
+    border-radius: 7px;
+    color:white;
+    background-color: #63b5ae;
+    
+}
+.money{
+    margin-top: 208px;
+    text-align: center;
+    font-size: 45px;
+    color: 1c2534;
+}
+.type_site {
+    margin: 59px 0px 0px 498px;
+    font-size: 29px;
+    color: 1c2534;
+}
+.type_site select {
+    height: 53px;
+    width: 891px;
+    margin-top: 23px;
+    background-color: #eeeeee;
+    color: #737373;
+    font-size: 16px;
+}
+.design {
+    margin: 49px 0px 0px 498px;
+    font-size: 29px;
+    color: 1c2534;
+}
+.design select {
+    height: 53px;
+    width: 891px;
+    margin-top: 23px;
+    background-color: #eeeeee;
+    color: #737373;
+    font-size: 16px;
+}
+.adapt {
+    margin: 49px 0px 0px 498px;
+    font-size: 29px;
+    color: 1c2534;
+}
+.adapt select {
+    height: 53px;
+    width: 891px;
+    margin-top: 23px;
+    background-color: #eeeeee;
+    color: #737373;
+    font-size: 16px;
+}
+.sroki{
+    height: 76px;
+    width: 100%;
+    background: url(../img/grey_line.png) no-repeat;
+    margin: 36px 0px 0px 498px;
+    line-height: 27px;
+    padding-top: 29px;
+
+}
+.statistic{
+    width: 100%;
+    height: 496px;
+    margin-top: 153px;
+   background: url(../img/icon1.4.png) 1371px 245px  no-repeat,url(../img/icon1.3.png) 1078px 245px  no-repeat,
+               url(../img/icon1.2.png) 782px 245px  no-repeat,url(../img/icon1.1.png) 495px 245px no-repeat,
+               url(../img/line2.png) 50% 157px no-repeat,url(../img/fon3.png) no-repeat;
+}
+.statistic h3{
+    text-align: center;
+    padding-top: 102px;
+    font-size: 30px;
+    color: #1c2534;   
+}
+.statistic_list1 {
+    margin: 204px 0px 0px 497px;
+    font-size: 35px;
+    color: #1c2534; 
+    font-weight: 300
+}
+.statistic_list1 li{
+    float: left;
+    padding-right: 224px;
+}
+.statistic_list2 {
+    font-size: 16px;
+    color: #1c2534;
+    margin: 29px 0px 0px 438px;
+}
+.statistic_list2 li{
+    float: left;
+    padding-right: 156px;
+}
+.reviews h3{
+    height: 222px;
+    width: 100%;
+    margin-top: 105px;
+    text-align: center;
+    font-size: 30px;
+    color: #1c2534;
+    background: url(../img/boy2.png) 50% 119px no-repeat,url(../img/line2.png) 50% 56px no-repeat;
+}
+.reviews p{
+    text-align: center;
+    margin-top: 38px;
+    font-size: 16px;
+    color: #1c2534;
+}
+.contacts{
+    width: 100%;
+    height: 808px;
+    margin-top: 152px;
+    background:url(../img/phone.png) 1193px 254px no-repeat, url(../img/mail.png) 945px 254px no-repeat, url(../img/geo.png)709px 254px no-repeat, url(../img/line.png) 50% 159px no-repeat,url(../img/fon4.png) no-repeat;
+    
+}
+.contacts h3{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 105px;
+    color: white;
+
+}
+.contacts p{
+    padding-top: 72px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+.lol{
+    font-size: 16px;
+    margin: 90px 0px 0px 653px;
+    color: white;
+    text-align: center;
+}
+.lol li{
+    float: left;
+    padding-right: 115px;
+}
+.message h4 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 60px;
+}
+.alo{
+    height: 34px;
+    width: 351px;
+    margin: 44px 0px 0px 594px;
+}
+.olo{
+    height: 34px;
+    width: 351px;
+    margin: 44px 0px 0px 29px;
+}
+.lol{
+    height: 94px;
+    width: 732px;
+    margin: 14px 0px 0px 594px; 
+    text-align: left;
+}
+.message input{
+    width: 121px;
+    height: 41px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: 20px;
+    background: none;
+    color: white;
+    margin: 28px 0px 0px 917px;
+}
