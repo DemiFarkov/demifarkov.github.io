@@ -90,39 +90,71 @@ nav {
 }
 .i_can{
     width: 100%;
-    height: 523px;
-    
+    height: 523px;    
     margin-top: 100px;
-    background: url(../img/icon4.png) 1376px 276px  no-repeat, url(../img/icon3.png) 1086px 276px  no-repeat,
-                url(../img/icon2.png) 789px 276px  no-repeat, url(../img/icon1.png) 496px 276px  no-repeat,
-                url(../img/fon2.png) 100% no-repeat; 
+    background: url(../img/line.png) 50% 158px no-repeat,url(../img/fon2.png) 100% no-repeat; 
 }
 .i_can h3{
     padding-top: 106px;
-    text-align: center;        
+    text-align: center;       
     font-size: 30px;
     color: #384354;
 }
-.can{
-     margin-top: 222px;
-     padding-left: 476px;
-}
-.can li{
+.i_can1{
     float: left;
-    margin-right: 200px;
-    font-size: 16px;
-    color: #cf7600
-}
-.about_i_can{
-    padding-left: 418px;
-    float: left;
-}
-.about_i_can li{
-    float: left;
-    font-size: 15px;
-    margin-right: 82px;
-    margin-top: 20px;
     text-align: center;
+    margin: 146px 0px 0px 417px;
+}
+.i_can1 h4{
+    color: #cf7600;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.i_can1 p{
+    font-size: 16px;
+    color: #3f495a;
+}
+.i_can2{
+    float: left;
+    text-align: center;
+    margin: 146px 0px 0px 83px;
+}
+.i_can2 h4{
+    color: #cf7600;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.i_can2 p{
+    font-size: 16px;
+    color: #3f495a;
+}
+.i_can3{
+    float: left;
+    text-align: center;
+    margin: 146px 0px 0px 83px;
+}
+.i_can3 h4{
+    color: #cf7600;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.i_can3 p{
+    font-size: 16px;
+    color: #3f495a;
+}
+.i_can4{
+    float: left;
+    text-align: center;
+    margin: 146px 0px 0px 83px;
+}
+.i_can4 h4{
+    color: #cf7600;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.i_can4 p{
+    font-size: 16px;
+    color: #3f495a;
 }
 .cases{
     margin-top: 110px;
@@ -279,7 +311,7 @@ nav {
     width: 100%;
     height: 808px;
     margin-top: 152px;
-    background:url(../img/phone.png) 1193px 254px no-repeat, url(../img/mail.png) 945px 254px no-repeat, url(../img/geo.png)709px 254px no-repeat, url(../img/line.png) 50% 159px no-repeat,url(../img/fon4.png) no-repeat;
+    background: url(../img/line.png) 50% 159px no-repeat,url(../img/fon4.png) no-repeat;
     
 }
 .contacts h3{
@@ -289,27 +321,47 @@ nav {
     color: white;
 
 }
-.contacts p{
+.pop{
     padding-top: 72px;
     text-align: center;
     font-size: 16px;
     color: white;
 }
-.lol{
-    font-size: 16px;
-    margin: 90px 0px 0px 653px;
-    color: white;
-    text-align: center;
-}
-.lol li{
+.contacts1{
     float: left;
-    padding-right: 115px;
+    text-align: center;
+    margin: 47px 0px 0px 653px;
+}
+.contacts1 p{
+    font-size: 16px;
+    color: white;
+    margin-top: 15px;
+}
+.contacts2{
+    float: left;
+    text-align: center;
+    margin: 47px 0px 0px 103px;
+}
+.contacts2 p{
+    font-size: 16px;
+    color: white;
+    margin-top: 15px;
+}
+.contacts3{
+
+    text-align: center;
+    margin: 47px 0px 0px 113px;
+}
+.contacts3 p{
+    font-size: 16px;
+    color: white;
+    margin-top: 15px;
 }
 .message h4 {
     color: white;
     font-size: 20px;
-    text-align: center;
     padding-top: 60px;
+    text-align: center;
 }
 .alo{
     height: 34px;
@@ -326,8 +378,9 @@ nav {
     width: 732px;
     margin: 14px 0px 0px 594px; 
     text-align: left;
+    color: black;
 }
-.message input{
+.lll{
     width: 121px;
     height: 41px;
     text-align: center;
