@@ -103,7 +103,7 @@ nav {
 .i_can1{
     float: left;
     text-align: center;
-    margin: 146px 0px 0px 417px;
+    margin: 146px 0px 0px 317px;
 }
 .i_can1 h4{
     color: #cf7600;
@@ -327,10 +327,13 @@ nav {
     font-size: 16px;
     color: white;
 }
+.cont{
+    margin-top: 47px;
+}
 .contacts1{
     float: left;
     text-align: center;
-    margin: 47px 0px 0px 653px;
+    margin: 0px 0px 0px 653px;
 }
 .contacts1 p{
     font-size: 16px;
@@ -340,7 +343,7 @@ nav {
 .contacts2{
     float: left;
     text-align: center;
-    margin: 47px 0px 0px 103px;
+    margin: 0px 0px 0px 103px;
 }
 .contacts2 p{
     font-size: 16px;
@@ -348,9 +351,9 @@ nav {
     margin-top: 15px;
 }
 .contacts3{
-
+    float: left;
     text-align: center;
-    margin: 47px 0px 0px 113px;
+    margin: 0px 0px 0px 113px;
 }
 .contacts3 p{
     font-size: 16px;
@@ -360,7 +363,7 @@ nav {
 .message h4 {
     color: white;
     font-size: 20px;
-    padding-top: 60px;
+    padding-top: 100px;
     text-align: center;
 }
 .alo{
