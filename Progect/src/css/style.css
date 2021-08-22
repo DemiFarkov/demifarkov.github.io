@@ -1,3 +1,6 @@
+html{
+    overflow-x: hidden;
+}
 body{
     font-family: Arial, sans-serif;
 }
@@ -5,6 +8,7 @@ nav {
     width: 100%;
     height: 60px;
     background: #344051;
+    position: fixed;        
 }
 .logo{
     color: #fff;
@@ -12,6 +16,17 @@ nav {
     line-height: 60px;
     padding-left: 388px;
     float: left;
+    -webkit-animation: logo 2s;
+    -o-animation: logo 2s;
+    animation: logo 2s;
+}
+@keyframes logo{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 .menu{
     float: left;
@@ -25,13 +40,49 @@ nav {
     margin-right: 40px;
     font-size: 16px;
     text-transform: uppercase;
+    animation: logoright 1s forwards; 
+    opacity: 0;
+}
+.menu li a{
+    transition: all 0.1s;
+    color: white;
+    transform: scale(1);
+    display: inline-block;
+}
+.menu li a:hover{
+    color: #d17700;
+    transform: scale(1.1);
+}
+@keyframes logoright{
+    from{ opacity: 0;}
+    to{ opacity: 1}
+}
+.menu li:nth-child(2){
+    animation-delay: 0.2s;
+}
+.menu li:nth-child(3){
+    animation-delay: 0.4s;
+}
+.menu li:nth-child(4){
+    animation-delay: 0.6s;
+}
+.menu li:nth-child(5){
+    animation-delay: 0.8s;
+}
+.menu li:nth-child(6){
+    animation-delay: 1s;
 }
 .main{
     width: 100%;
-    height: calc(100% - 60px);
+    height: 100%;
     background:url(../img/boy.png) 90% 100%/auto 85% no-repeat,  url(../img/fon1.png) center/cover no-repeat;
 }
 .title__container{
+    opacity: 0;
+        -webkit-animation: logoright;
+    -o-animation: logoright;
+    animation: logoright 2s forwards;
+
     float: left;
     margin: 432px 0px 0px 404px;
     color: #2c384a;
@@ -57,6 +108,15 @@ nav {
     padding: 0px 16px;
     margin: 50px 14px 0px 14px;
 }
+.title__container input{
+    transition: active hover 0.2s;
+    transform: scale(1);
+}
+.title__container input:hover{
+    background: #344051;
+    color: white;
+}
+.title__container input:active{transform: scale(1.15)}
 .about{
     margin: 100px 0px 0px 0px;
     color: #384354;
@@ -66,6 +126,7 @@ nav {
     font-size: 30px;
     background: url(../img/boy.mini.png) 50% 119px no-repeat  ,url(../img/line.png) 50% 47px no-repeat  
 }
+
 .lorem1{
     font-size: 16px;
     padding-left: 600px;
@@ -88,11 +149,17 @@ nav {
     border: 2px solid #6d7682;
     margin: 40px 0px 0px 290px
 }
+.lorem2 input:hover{
+    background: #344051;
+    color: white;
+}
+.lorem2 input:active{transform: scale(1.15)}
 .i_can{
     width: 100%;
     height: 523px;    
     margin-top: 100px;
-    background: url(../img/line.png) 50% 158px no-repeat,url(../img/fon2.png) 100% no-repeat; 
+    background: url(../img/line.png) 50% 158px no-repeat, url(../img/fon2.png) no-repeat; 
+    background-attachment: fixed;
 }
 .i_can h3{
     padding-top: 106px;
@@ -156,6 +223,7 @@ nav {
     font-size: 16px;
     color: #3f495a;
 }
+
 .cases{
     margin-top: 110px;
     text-align: center;
@@ -195,16 +263,40 @@ nav {
 .c2 b{
     font-size: 25px;
 }
+.input_ani{
+    width: 201px;
+    height: 44px;
+    background-color: rgba(0,0,0,0.1);
+    perspective: 400px;
+    transform-style: preserve-3d;
+    margin: 25px 0px 0px 388px;
+    border-radius: 7px;
+    
+    
+    
+}
 .input{
     height: 44px;
     width: 201px;
-    margin: 25px 0px 0px 388px;
+    margin: 25px 0px 0px 0px;
     font-size: 20px;
     border-radius: 7px;
     color:white;
     background-color: #63b5ae;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: hover ease;
+    height: 44px;
+    width: 201px;
+    transform: rotateY(0deg);
 }
+
+.input:hover{
+    transform: rotateY(35deg);
+    transition: 0.5s;
+}
+
 .money{
     margin-top: 208px;
     text-align: center;
@@ -393,4 +485,75 @@ nav {
     background: none;
     color: white;
     margin: 28px 0px 0px 917px;
+    transform-origin: top left;
+    transform: rotate(0deg);
+    transition: all 0.3s forwards;
+}
+.lll:active{
+transform: rotate(30deg);
+    transition: forwards;
+}
+.preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #e0e0e0;
+  z-index: 1001;
+}
+.preloader__row {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: -35px;
+  margin-left: -35px;
+  text-align: center;
+  animation: preloader-rotate 2s infinite linear;
+}
+
+.preloader__item {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  background-color: #337ab7;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  animation: preloader-bounce 2s infinite ease-in-out;
+}
+
+.preloader__item:last-child {
+  top: auto;
+  bottom: 0;
+  animation-delay: -1s;
+}
+
+@keyframes preloader-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes preloader-bounce {
+
+  0%,
+  100% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+}
+
+.loaded_hiding .preloader {
+  transition: 0.3s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
 }
